@@ -23,7 +23,7 @@ jobs:
     steps:
      - uses: deepakputhraya/action-pr-title@v1.0.2
        with:
-        regex: '^TN' # Regex the title should match.
+        regex: '^CRM' # Regex the title should match.
         min_length: 4 # Min length of the title
         max_length: 20 # Max length of the title
         github_token: ${{ github.token }} # Default: ${{ github.token }}
