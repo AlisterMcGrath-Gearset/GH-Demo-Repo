@@ -4,11 +4,9 @@ name: Run 3rd party testing
 on:
   # Triggers the workflow on push or pull request events for the listed branches
   push:
-    branches:
-      - Integration
+    branches: [ "Integration" ]
   pull_request:
-    branches:
-      - Integration
+    branches: [ "Integration" ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
