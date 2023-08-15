@@ -34,6 +34,18 @@
                 <default>false</default>
                 <label>Bronze</label>
             </value>
+            <value>
+                <fullName>Tin</fullName>
+                <color>#AFCADF</color>
+                <default>false</default>
+                <label>Tin</label>
+            </value>
+            <value>
+                <fullName>Lead</fullName>
+                <color>#666666</color>
+                <default>false</default>
+                <label>Lead</label>
+            </value>
         </valueSetDefinition>
         <valueSettings>
             <controllingFieldValue>Agriculture</controllingFieldValue>
