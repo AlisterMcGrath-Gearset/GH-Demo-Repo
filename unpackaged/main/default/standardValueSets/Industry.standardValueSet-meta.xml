@@ -1,6 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
+    <standardValue>
+        <fullName>Agriculture</fullName>
+        <default>false</default>
+        <label>Agriculture</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Aviation</fullName>
+        <default>false</default>
+        <label>Aviation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Banking</fullName>
+        <default>false</default>
+        <label>Banking</label>
+    </standardValue>
     <standardValue>
         <fullName>Resource Acquisition</fullName>
         <default>false</default>
@@ -12,24 +27,9 @@
         <label>Recycling</label>
     </standardValue>
     <standardValue>
-        <fullName>Agriculture</fullName>
-        <default>false</default>
-        <label>Agriculture</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Apparel</fullName>
-        <default>false</default>
-        <label>Apparel</label>
-    </standardValue>
-    <standardValue>
         <fullName>Balloons</fullName>
         <default>false</default>
         <label>Balloons</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Banking</fullName>
-        <default>false</default>
-        <label>Banking</label>
     </standardValue>
     <standardValue>
         <fullName>Biotechnology</fullName>
@@ -40,11 +40,6 @@
         <fullName>Chemicals</fullName>
         <default>false</default>
         <label>Chemicals</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Communications</fullName>
-        <default>false</default>
-        <label>Communications</label>
     </standardValue>
     <standardValue>
         <fullName>Construction</fullName>
@@ -60,6 +55,11 @@
         <fullName>Education</fullName>
         <default>false</default>
         <label>Education</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Communications</fullName>
+        <default>false</default>
+        <label>Communications</label>
     </standardValue>
     <standardValue>
         <fullName>Electronics</fullName>
