@@ -247,4 +247,6 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <fullName>ChannelProgramLevelName</fullName>
+    <fullName>Tier</fullName>
 </CustomObject>
