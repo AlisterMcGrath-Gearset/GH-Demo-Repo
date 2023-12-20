@@ -17,6 +17,11 @@
         <label>Agriculture</label>
     </standardValue>
     <standardValue>
+        <fullName>Apiary</fullName>
+        <default>false</default>
+        <label>Apiary</label>
+    </standardValue>
+    <standardValue>
         <fullName>Apparel</fullName>
         <default>false</default>
         <label>Apparel</label>
