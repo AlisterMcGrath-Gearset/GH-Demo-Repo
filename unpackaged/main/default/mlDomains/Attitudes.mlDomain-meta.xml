@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MlDomain xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>a set of intents for the newest bots</description>
+    <label>Attitudes Intent Set</label>
+    <mlIntents>
+        <description>asking for addresses</description>
+        <developerName>addresses</developerName>
+        <label>addresses</label>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>where is it</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>where can I</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>idk WHERE that is</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>wherever may we</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>wheresoever art thou</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>identify location, robot!!</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>which location?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>I&apos;m a human, tell me the place</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>which place</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>I&apos;m lost, where do?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>uhm I&apos;m lost</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <description>how to get there</description>
+        <developerName>directions</developerName>
+        <label>directions</label>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>help me find my way 🙏</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>directions pls</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>show me wehre</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <description>Asking for phone numbers</description>
+        <developerName>phones</developerName>
+        <label>phones</label>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>new phone who dis</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>what&apos;s ur number?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>show me those digits</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>tell me those digits</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>what are the n u m b e r s?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>hello, seeking the dial</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>tell me the numbers, mason</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>how do I call out?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>how do i reach u on the phone?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>phone pls?</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <description>asking fro recipes</description>
+        <developerName>recipes</developerName>
+        <label>recipes</label>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>yeah? ok</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>how on earth do I bake this?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>how did you cook that?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>is this baked? brewed? burned?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>what went into this?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>recipe please</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>tell me the ingredients</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>where da book at tho</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlSlotClasses>
+        <dataType>Text</dataType>
+        <developerName>Invocations</developerName>
+        <extractionRegex>yes please!</extractionRegex>
+        <extractionType>Pattern</extractionType>
+        <label>Invocations</label>
+    </mlSlotClasses>
+    <mlSlotClasses>
+        <dataType>Text</dataType>
+        <developerName>Responses</developerName>
+        <extractionType>Value</extractionType>
+        <label>Responses</label>
+    </mlSlotClasses>
+</MlDomain>
