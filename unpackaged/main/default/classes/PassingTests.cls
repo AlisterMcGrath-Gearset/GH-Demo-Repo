@@ -1,9 +1,11 @@
 @isTest
 public class PassingTests {
+
     @isTest static void test1() {
-         System.assertEquals(3, 3);
+         System.assertEquals(17, 17);
     }
+    
     @isTest static void test2() {
-        System.assertEquals(4, 4);
+        System.assertEquals(19, 19);
     }
 }
