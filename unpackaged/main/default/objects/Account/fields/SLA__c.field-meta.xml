@@ -11,6 +11,7 @@
             <sorted>false</sorted>
             <value>
                 <fullName>Gold</fullName>
+                <color>#F3D904</color>
                 <default>false</default>
                 <label>Gold</label>
             </value>
@@ -26,9 +27,37 @@
             </value>
             <value>
                 <fullName>Bronze</fullName>
+                <color>#A53711</color>
                 <default>false</default>
                 <label>Bronze</label>
             </value>
+            <value>
+                <fullName>Lead</fullName>
+                <color>#666666</color>
+                <default>false</default>
+                <label>Lead</label>
+            </value>
         </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <controllingFieldValue>Chemicals</controllingFieldValue>
+            <valueName>Bronze</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Chemicals</controllingFieldValue>
+            <valueName>Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Biotechnology</controllingFieldValue>
+            <controllingFieldValue>Chemicals</controllingFieldValue>
+            <valueName>Silver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Chemicals</controllingFieldValue>
+            <valueName>Platinum</valueName>
+        </valueSettings>
     </valueSet>
 </CustomField>
